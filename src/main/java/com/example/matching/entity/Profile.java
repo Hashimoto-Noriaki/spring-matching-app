@@ -29,7 +29,7 @@ public class Profile {
     @Column(nullable = false, length = 10)
     private String gender; // "male" / "female" / "other" のどれかを入れる
 
-    @Column(nullable = false, length = 500)
+    @Column(length = 500)
     private String bio; // 自己紹介文(空でもOKなので nullable 指定なし)
 
     @Column(length = 20)
